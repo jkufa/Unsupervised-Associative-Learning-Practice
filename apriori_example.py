@@ -3,12 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from apyori import apriori
 
-store_data = pd.read_csv('D:\\Datasets\\store_data.csv')
-
-store_data.head()
-
-store_data = pd.read_csv('D:\\Datasets\\store_data.csv', header=None)
-
+store_data = pd.read_csv('store_data.csv', header=None)
 store_data.head()
 
 # Data preprocessing
@@ -17,13 +12,16 @@ records = []
 for i in range(0, 7501):
     records.append([str(store_data.values[i,j]) for j in range(0, 20)])
 
+# for item in records:
+#     print(item)
 
 association_rules = apriori(records, min_support=0.0045, min_confidence=0.2, min_lift=3, min_length=2)
 association_results = list(association_rules)
 
-print(len(association_rules))
+# print(len(association_results))
+# print(association_results[0])
 
-for item in association_rules:
+for item in association_results:
 
     # first index of the inner list
     # Contains base item and add item
