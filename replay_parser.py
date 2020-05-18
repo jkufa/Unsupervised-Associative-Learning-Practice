@@ -4,26 +4,27 @@
 from bs4 import BeautifulSoup as soup
 import requests
 
-# webpage = open("replays_by_date.html",'r')
-webpage = open("replays_by_date.html",'r')
-output = open("replays.txt","r")
-test = soup(webpage,'html.parser')
-csv = open("teams.csv","w")
+base_webpage = open("replays_by_date.html",'r')
+replays_list = open("replays.txt","w")
+Teams_CSV = open("teams.csv","w")
 
-# print(test)
+soup_webpage = soup(base_webpage,'html.parser') # Create soup of webpage
 
-all_li = test.find_all('li')
-# print(all_li)
+# Find all <li> tags from soup
+all_li = soup_webpage.find_all('li')
 
-# Extracting all the <a> tags into a list.
-tags = test.find_all('a')
+# Extract all the <a> tags into a list.
+tags = soup_webpage.find_all('a')
  
-# # Extracting URLs from the attribute href in the <a> tags.
-# for tag in tags:
-#     output.write(tag.get('href=https://replay.pokemonshowdown.com/gen8vgc2020-'))
-#     output.write('\n')
+# ExtractURLs from the attribute href in the <a> tags.
+for tag in tags:
+    replays_list.write(tag.get('href'))
+    replays_list.write('\n')
 
-f = output.read()
+# Close replays_list and reopen for reading instead of writing
+replays_list.close()
+replays_list = open("replays.txt","r")
+f = replays_list.read()
 
 # Extract teams from each replay url
 for replay in f.splitlines():
@@ -38,14 +39,14 @@ for replay in f.splitlines():
             array = line[9:].split(",")
             team2.append(array[0])
 
-    csv.write(', '.join(team1))
-    csv.write('\n')
-    csv.write(', '.join(team2))
-    csv.write('\n')
+    Teams_CSV.write(', '.join(team1))
+    Teams_CSV.write('\n')
+    Teams_CSV.write(', '.join(team2))
+    Teams_CSV.write('\n')
     # print(team1)
     # print(team2)
 
-
-
-webpage.close()
-output.close()
+# Close all file streams
+base_webpage.close()
+replays_list.close()
+Teams_CSV1.close()

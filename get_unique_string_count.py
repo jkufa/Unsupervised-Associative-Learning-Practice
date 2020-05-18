@@ -1,6 +1,29 @@
-count = 0
-with open(file) as  f:
-    for line in f:
-        for word in line.split('with_my_delimiter'):
-            if word == 'my_word':
-                count = count + 1
+import csv
+
+
+teamsCSV = open("teams.csv","r")
+teams = teamsCSV.read()
+
+# Get total number of teams
+i = 0
+with open(teams) as f:
+    for i, l in enumerate(f):
+        pass
+    i + 1
+print(i)
+
+# Gets number of unique strings present in csv file 
+# all_teams = csv.read()
+# for team in all_teams.splitlines():
+#     print(team)
+
+# with open('teams.csv', 'r') as f:
+#     unique_pokemon = {field.lower() 
+#               for row in csv.reader(f, delimiter=',')
+#               for field in row}
+
+#     print(unique_pokemon)
+
+# for each unique string, find the number of occurances
+for mon in uniqueMonsList:
+    csv.count(mon)
