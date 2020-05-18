@@ -8,6 +8,7 @@ import requests
 webpage = open("replays_by_date.html",'r')
 output = open("replays.txt","r")
 test = soup(webpage,'html.parser')
+csv = open("teams.csv","w")
 
 # print(test)
 
@@ -19,23 +20,31 @@ tags = test.find_all('a')
  
 # # Extracting URLs from the attribute href in the <a> tags.
 # for tag in tags:
-#     output.write(tag.get('href'))
+#     output.write(tag.get('href=https://replay.pokemonshowdown.com/gen8vgc2020-'))
 #     output.write('\n')
 
 f = output.read()
 
 # Extract teams from each replay url
 for replay in f.splitlines():
-    r = requests.get(replay)
-    suup = soup(r.content,'html.parser')
-    #div="class name"
-    tags2 = suup.get_text()
-    print(tags2)
-print('megapoop')
-# div class="battle-log"
-# div class="inner message-log"
-# div class="chat battle-history"
-# <em style="color:#445566;display:block"> ... </em>
+    team1 = []
+    team2 = []
+    r = requests.get(replay + ".log")
+    for line in r.content.decode("utf-8").splitlines():
+        if "|poke|p1|" in line:
+            array = line[9:].split(",")
+            team1.append(array[0])
+        if "|poke|p2|" in line:
+            array = line[9:].split(",")
+            team2.append(array[0])
+
+    csv.write(', '.join(team1))
+    csv.write('\n')
+    csv.write(', '.join(team2))
+    csv.write('\n')
+    # print(team1)
+    # print(team2)
+
 
 
 webpage.close()
