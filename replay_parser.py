@@ -1,5 +1,5 @@
-# Parses html file to find list of replays, then parses list of replays to create
-# a csv of teams
+# Parses html file to find list of replays, then parses list of 
+# replays to create a csv of teams
 
 from bs4 import BeautifulSoup as soup
 import requests
