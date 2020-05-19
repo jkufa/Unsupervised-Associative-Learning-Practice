@@ -2,15 +2,11 @@ import csv
 
 
 teamsCSV = open("teams.csv","r")
-teams = teamsCSV.read()
+fileObject = csv.reader("teams.csv")
 
-# Get total number of teams
-i = 0
-with open(teams) as f:
-    for i, l in enumerate(f):
-        pass
-    i + 1
-print(i)
+# Get total number of teams & Pokemon
+row_count = sum(1 for row in fileObject)  # fileObject is your csv.reader
+print(row_count)
 
 # Gets number of unique strings present in csv file 
 # all_teams = csv.read()
@@ -25,5 +21,5 @@ print(i)
 #     print(unique_pokemon)
 
 # for each unique string, find the number of occurances
-for mon in uniqueMonsList:
-    csv.count(mon)
+# for mon in uniqueMonsList:
+#     csv.count(mon)
