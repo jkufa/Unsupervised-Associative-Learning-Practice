@@ -1,0 +1,26 @@
+From Apriori
+Rule: Togedemaru ->  Dragapult
+----------------
+Support: 0.0052
+Confidence: 0.8124999999999999
+Lift: 4.321808510638297
+
+Expected, 44 Togedemaru, 649 Dragapult
+---------------
+Support: 44 / 2500 = .0176
+Confidence: 16/44 = .363636364
+Lift: 
+=====================================
+Rule:  Pelipper -> Mantine
+Support: 0.0048
+Confidence: 0.7499999999999999
+Lift: 32.89473684210526
+
+total A: 68
+Support = 68 / 2500
+
+total A and B together: 12
+Confidence: 12 / 12
+
+total A: 12
+Support = 12 / 68

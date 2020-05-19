@@ -1,12 +1,11 @@
 import csv
+import pandas as pd
 
-
-teamsCSV = open("teams.csv","r")
-fileObject = csv.reader("teams.csv")
-
+data = pd.read_csv("teams.csv")
+arr = data.count()
+unique_value = data.nunique(dropna = True)
 # Get total number of teams & Pokemon
-row_count = sum(1 for row in fileObject)  # fileObject is your csv.reader
-print(row_count)
+print(len(arr), unique_value)
 
 # Gets number of unique strings present in csv file 
 # all_teams = csv.read()
