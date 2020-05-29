@@ -1,21 +1,325 @@
-7501
-Rule: ground beef -> spaghetti
-Support: 0.004799360085321957
-Confidence: 0.5714285714285714
-Lift: 3.2819951870487856
-=====================================
-Rule: spaghetti -> shrimp
-Support: 0.005999200106652446
-Confidence: 0.5232558139534884
-Lift: 3.005315360233627
-=====================================
-Rule: ground beef -> spaghetti
-Support: 0.004799360085321957
-Confidence: 0.5714285714285714
-Lift: 3.2819951870487856
-=====================================
-Rule: spaghetti -> shrimp
-Support: 0.005999200106652446
-Confidence: 0.5232558139534884
-Lift: 3.005315360233627
-=====================================
+boop
+    Title1 Title2  Support Confidence     Lift
+0  burgers    nan  0.08718        1.0  1.00013
+    Title1 Title2  Support Confidence     Lift
+0  burgers    nan  0.08718        1.0  1.00013
+1     cake    nan  0.08105        1.0  1.00013
+    Title1   Title2  Support Confidence     Lift
+0  burgers      nan  0.08718        1.0  1.00013
+1     cake      nan  0.08105        1.0  1.00013
+2      nan  chicken  0.05999        1.0  1.00013
+      Title1   Title2  Support Confidence     Lift
+0    burgers      nan  0.08718        1.0  1.00013
+1       cake      nan  0.08105        1.0  1.00013
+2        nan  chicken  0.05999        1.0  1.00013
+3  chocolate      nan  0.16384        1.0  1.00013
+      Title1   Title2  Support Confidence     Lift
+0    burgers      nan  0.08718        1.0  1.00013
+1       cake      nan  0.08105        1.0  1.00013
+2        nan  chicken  0.05999        1.0  1.00013
+3  chocolate      nan  0.16384        1.0  1.00013
+4    cookies      nan  0.08038        1.0  1.00013
+      Title1   Title2  Support Confidence     Lift
+0    burgers      nan  0.08718        1.0  1.00013
+1       cake      nan  0.08105        1.0  1.00013
+2        nan  chicken  0.05999        1.0  1.00013
+3  chocolate      nan  0.16384        1.0  1.00013
+4    cookies      nan  0.08038        1.0  1.00013
+5       eggs      nan  0.17970        1.0  1.00013
+      Title1   Title2  Support Confidence     Lift
+0    burgers      nan  0.08718        1.0  1.00013
+1       cake      nan  0.08105        1.0  1.00013
+2        nan  chicken  0.05999        1.0  1.00013
+3  chocolate      nan  0.16384        1.0  1.00013
+4    cookies      nan  0.08038        1.0  1.00013
+5       eggs      nan  0.17970        1.0  1.00013
+6   escalope      nan  0.07932        1.0  1.00013
+      Title1        Title2  Support Confidence     Lift
+0    burgers           nan  0.08718        1.0  1.00013
+1       cake           nan  0.08105        1.0  1.00013
+2        nan       chicken  0.05999        1.0  1.00013
+3  chocolate           nan  0.16384        1.0  1.00013
+4    cookies           nan  0.08038        1.0  1.00013
+5       eggs           nan  0.17970        1.0  1.00013
+6   escalope           nan  0.07932        1.0  1.00013
+7        nan  french fries  0.17091        1.0  1.00013
+      Title1           Title2  Support Confidence     Lift
+0    burgers              nan  0.08718        1.0  1.00013
+1       cake              nan  0.08105        1.0  1.00013
+2        nan          chicken  0.05999        1.0  1.00013
+3  chocolate              nan  0.16384        1.0  1.00013
+4    cookies              nan  0.08038        1.0  1.00013
+5       eggs              nan  0.17970        1.0  1.00013
+6   escalope              nan  0.07932        1.0  1.00013
+7        nan     french fries  0.17091        1.0  1.00013
+8        nan  frozen smoothie  0.06319    0.99789  0.99802
+              Title1           Title2  Support Confidence     Lift
+0            burgers              nan  0.08718        1.0  1.00013
+1               cake              nan  0.08105        1.0  1.00013
+2                nan          chicken  0.05999        1.0  1.00013
+3          chocolate              nan  0.16384        1.0  1.00013
+4            cookies              nan  0.08038        1.0  1.00013
+5               eggs              nan  0.17970        1.0  1.00013
+6           escalope              nan  0.07932        1.0  1.00013
+7                nan     french fries  0.17091        1.0  1.00013
+8                nan  frozen smoothie  0.06319    0.99789  0.99802
+9  frozen vegetables              nan  0.09532        1.0  1.00013
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+14      mineral water              nan  0.23823    0.23823      1.0
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+14      mineral water              nan  0.23823    0.23823      1.0
+15      mineral water        spaghetti  0.05972    0.25055  1.43908
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+14      mineral water              nan  0.23823    0.23823      1.0
+15      mineral water        spaghetti  0.05972    0.25055  1.43908
+16          olive oil              nan  0.06572    0.99797  0.99810
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+14      mineral water              nan  0.23823    0.23823      1.0
+15      mineral water        spaghetti  0.05972    0.25055  1.43908
+16          olive oil              nan  0.06572    0.99797  0.99810
+17           pancakes              nan  0.09505        1.0  1.00013
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+14      mineral water              nan  0.23823    0.23823      1.0
+15      mineral water        spaghetti  0.05972    0.25055  1.43908
+16          olive oil              nan  0.06572    0.99797  0.99810
+17           pancakes              nan  0.09505        1.0  1.00013
+18                nan           shrimp  0.07132    0.99813  0.99826
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+14      mineral water              nan  0.23823    0.23823      1.0
+15      mineral water        spaghetti  0.05972    0.25055  1.43908
+16          olive oil              nan  0.06572    0.99797  0.99810
+17           pancakes              nan  0.09505        1.0  1.00013
+18                nan           shrimp  0.07132    0.99813  0.99826
+19          spaghetti              nan  0.17411        1.0  1.00013
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+14      mineral water              nan  0.23823    0.23823      1.0
+15      mineral water        spaghetti  0.05972    0.25055  1.43908
+16          olive oil              nan  0.06572    0.99797  0.99810
+17           pancakes              nan  0.09505        1.0  1.00013
+18                nan           shrimp  0.07132    0.99813  0.99826
+19          spaghetti              nan  0.17411        1.0  1.00013
+20                nan         tomatoes  0.06839        1.0  1.00013
+               Title1           Title2  Support Confidence     Lift
+0             burgers              nan  0.08718        1.0  1.00013
+1                cake              nan  0.08105        1.0  1.00013
+2                 nan          chicken  0.05999        1.0  1.00013
+3           chocolate              nan  0.16384        1.0  1.00013
+4             cookies              nan  0.08038        1.0  1.00013
+5                eggs              nan  0.17970        1.0  1.00013
+6            escalope              nan  0.07932        1.0  1.00013
+7                 nan     french fries  0.17091        1.0  1.00013
+8                 nan  frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables              nan  0.09532        1.0  1.00013
+10                nan        green tea  0.13198    0.99899  0.99912
+11        ground beef              nan  0.09825        1.0  1.00013
+12                nan   low fat yogurt  0.07638    0.99825  0.99839
+13                nan             milk  0.12958        1.0  1.00013
+14      mineral water              nan  0.23823    0.23823      1.0
+15      mineral water        spaghetti  0.05972    0.25055  1.43908
+16          olive oil              nan  0.06572    0.99797  0.99810
+17           pancakes              nan  0.09505        1.0  1.00013
+18                nan           shrimp  0.07132    0.99813  0.99826
+19          spaghetti              nan  0.17411        1.0  1.00013
+20                nan         tomatoes  0.06839        1.0  1.00013
+21             turkey              nan  0.06252        1.0  1.00013
+               Title1            Title2  Support Confidence     Lift
+0             burgers               nan  0.08718        1.0  1.00013
+1                cake               nan  0.08105        1.0  1.00013
+2                 nan           chicken  0.05999        1.0  1.00013
+3           chocolate               nan  0.16384        1.0  1.00013
+4             cookies               nan  0.08038        1.0  1.00013
+5                eggs               nan  0.17970        1.0  1.00013
+6            escalope               nan  0.07932        1.0  1.00013
+7                 nan      french fries  0.17091        1.0  1.00013
+8                 nan   frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables               nan  0.09532        1.0  1.00013
+10                nan         green tea  0.13198    0.99899  0.99912
+11        ground beef               nan  0.09825        1.0  1.00013
+12                nan    low fat yogurt  0.07638    0.99825  0.99839
+13                nan              milk  0.12958        1.0  1.00013
+14      mineral water               nan  0.23823    0.23823      1.0
+15      mineral water         spaghetti  0.05972    0.25055  1.43908
+16          olive oil               nan  0.06572    0.99797  0.99810
+17           pancakes               nan  0.09505        1.0  1.00013
+18                nan            shrimp  0.07132    0.99813  0.99826
+19          spaghetti               nan  0.17411        1.0  1.00013
+20                nan          tomatoes  0.06839        1.0  1.00013
+21             turkey               nan  0.06252        1.0  1.00013
+22                nan  whole wheat rice  0.05852        1.0  1.00013
+               Title1            Title2  Support Confidence     Lift
+0             burgers               nan  0.08718        1.0  1.00013
+1                cake               nan  0.08105        1.0  1.00013
+2                 nan           chicken  0.05999        1.0  1.00013
+3           chocolate               nan  0.16384        1.0  1.00013
+4             cookies               nan  0.08038        1.0  1.00013
+5                eggs               nan  0.17970        1.0  1.00013
+6            escalope               nan  0.07932        1.0  1.00013
+7                 nan      french fries  0.17091        1.0  1.00013
+8                 nan   frozen smoothie  0.06319    0.99789  0.99802
+9   frozen vegetables               nan  0.09532        1.0  1.00013
+10                nan         green tea  0.13198    0.99899  0.99912
+11        ground beef               nan  0.09825        1.0  1.00013
+12                nan    low fat yogurt  0.07638    0.99825  0.99839
+13                nan              milk  0.12958        1.0  1.00013
+14      mineral water               nan  0.23823    0.23823      1.0
+15      mineral water         spaghetti  0.05972    0.25055  1.43908
+16          olive oil               nan  0.06572    0.99797  0.99810
+17           pancakes               nan  0.09505        1.0  1.00013
+18                nan            shrimp  0.07132    0.99813  0.99826
+19          spaghetti               nan  0.17411        1.0  1.00013
+20                nan          tomatoes  0.06839        1.0  1.00013
+21             turkey               nan  0.06252        1.0  1.00013
+22                nan  whole wheat rice  0.05852        1.0  1.00013
+23      mineral water               nan  0.05972    0.25055  1.43908
